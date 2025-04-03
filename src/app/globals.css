@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #123c6f;
+  --secondary: #040f58;
+  --accent: #f35425;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-gray-900 bg-white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ethnocentric', sans-serif;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(18, 60, 111, 0.95), rgba(4, 15, 88, 0.9));
+}
+
+.hero-bg {
+  background-image: url('../../public/image-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.input-style {
+  @apply w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all duration-200;
+}
+
+.button-primary {
+  @apply bg-accent hover:bg-accent/90 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105;
+}
