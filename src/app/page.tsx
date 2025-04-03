@@ -9,17 +9,34 @@ import { Faq } from './components/faq';
 import HowWork from './components/HowWork'
 import Expiriencie from './components/Expirencie';
 import { Invest } from './components/invest';
+import emailjs from "emailjs-com";
 
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    investment: '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    emailjs.send(
+      "service_fu2ktnd",  
+      "template_c842hrl", 
+      formData,
+      "5y6YB_L_SIPQakRdC"
+    )
+    .then(() => console.log("E-mail enviado com sucesso!"))
+    .catch((error) => console.error("Erro ao enviar e-mail:", error));
+
+    setFormData(
+     {
+      name: '',
+      email: '',
+      phone: ''
+     }
+    )
   };
 
 
@@ -37,7 +54,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-white flex flex-col items-center justify-start md:justify-center h-full w-full md:w-1/2 md:mb-[16pc]"
+              className="text-white flex flex-col items-center justify-start md:justify-center h-full w-full md:w-1/2 md:mb-[12pc]"
             >
               <div className="w-full flex justify-center items-start pt-0 md:pt-4">
                 <Image
@@ -59,8 +76,6 @@ export default function Home() {
                   </p>
             </motion.div>
 
-
-              {/* Formulário */}
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -110,21 +125,7 @@ export default function Home() {
                       required
                     />
                   </div>
-                  <div>
-                    <label htmlFor="investment" className="block text-sm font-medium text-gray-700 mb-1">
-                      Valor do investimento
-                    </label>
-                    <input
-                      type="text"
-                      id="investment"
-                      className="input-style"
-                      placeholder="R$ "
-                      value={formData.investment}
-                      onChange={(e) => setFormData({ ...formData, investment: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <button type="submit" className="button-primary w-full">
+                  <button onClick={handleSubmit} type="submit" className="button-primary w-full">
                     Quero investir agora
                   </button>
                 </form>

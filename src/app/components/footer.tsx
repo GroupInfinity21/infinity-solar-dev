@@ -2,6 +2,21 @@ import { Mail, MapPinned, Phone } from "lucide-react"
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 export const Footer = () => {
+
+  const openWpp = () =>{
+    const wpp = 'https://api.whatsapp.com/send/?phone=5583998072443&text=Ol%C3%A1%2C+quero+saber+mais%21&type=phone_number&app_absent=0'
+    window.open(wpp, "_blank")
+  }
+
+  const openFace= () =>{
+    const wpp = 'https://www.instagram.com/infinitysolarshare/'
+    window.open(wpp, "_blank")
+  }
+
+  const openInsta = () =>{
+    const wpp = 'https://www.facebook.com/people/Infinity-Solar-Share/61571839387380/'
+    window.open(wpp, "_blank")
+  }
     return (
         <footer className="bg-[#333] text-white py-12">
         <div className="max-w-[1200px] mx-auto px-4">
@@ -42,9 +57,9 @@ export const Footer = () => {
             <div className='flex flex-col justify-start items-center'>
               <h3 className="text-xl font-bold mb-4">Siga-nos</h3>
               <div className="flex space-x-4">
-                <FaFacebook size={28} className="text-blue-600 hover:text-blue-800 transition duration-300"/>
-                <FaWhatsapp  size={30} className="text-green-500 hover:text-green-700 transition duration-300" />
-                <FaInstagram  size={30} className="text-pink-500 hover:text-pink-700 transition duration-300" />
+                <FaFacebook onClick={openFace} size={28} className="text-blue-600 hover:text-blue-800 transition duration-300"/>
+                <FaWhatsapp onClick={openWpp}  size={30} className="text-green-500 hover:text-green-700 transition duration-300" />
+                <FaInstagram onClick={openInsta}  size={30} className="text-pink-500 hover:text-pink-700 transition duration-300" />
               </div>
             </div>
           </div>
