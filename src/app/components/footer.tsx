@@ -8,12 +8,12 @@ export const Footer = () => {
     window.open(wpp, "_blank")
   }
 
-  const openFace= () =>{
+  const openInsta = () =>{
     const wpp = 'https://www.instagram.com/infinitysolarshare/'
     window.open(wpp, "_blank")
   }
 
-  const openInsta = () =>{
+  const openFace = () =>{
     const wpp = 'https://www.facebook.com/people/Infinity-Solar-Share/61571839387380/'
     window.open(wpp, "_blank")
   }
@@ -59,7 +59,7 @@ export const Footer = () => {
               <div className="flex space-x-4">
                 <FaFacebook onClick={openFace} size={28} className="text-blue-600 hover:text-blue-800 transition duration-300"/>
                 <FaWhatsapp onClick={openWpp}  size={30} className="text-green-500 hover:text-green-700 transition duration-300" />
-                <FaInstagram onClick={openInsta}  size={30} className="text-pink-500 hover:text-pink-700 transition duration-300" />
+                <FaInstagram size={30} className="text-pink-500 hover:text-pink-700 transition duration-300" />
               </div>
             </div>
           </div>
