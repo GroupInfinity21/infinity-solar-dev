@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Investimento em Energia Solar',
+  title: 'Infinity solar share',
   description: 'Invista em energia solar e obtenha rendimentos mensais',
 };
 
@@ -21,6 +21,7 @@ export default function RootLayout({
           rel="stylesheet" 
           crossOrigin="anonymous"
         />
+        <link rel="icon" href="/favicon-16x16.png" type="image/x-icon" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
