@@ -17,7 +17,7 @@ export const Faq = () =>{
         },
         {
           question: 'Quais são os benefícios de investir por meio das cotas da Infinity Solar Share?',
-          answer: 'Os benefícios incluem potencial de retorno sobre o investimento acima da média do mercado, diversificação de portfólio, participação no agronegócio com a expertise da Infinity Solar Share na gestão desses investimentos.'
+          answer: 'Os benefícios incluem potencial de retorno sobre o investimento acima da média do mercado, diversificação de portfólio, participação no mercado de energia solar com a expertise da Infinity Solar Share na gestão desses investimentos.'
         },
         {
           question: 'Como a Infinity Solar Share gerencia os investimentos?',

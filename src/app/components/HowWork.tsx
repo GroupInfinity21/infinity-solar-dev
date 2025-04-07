@@ -56,7 +56,7 @@ export const HowWork = () =>{
                
                 <h3 className="text-xl font-semibold text-[#123c6f] mb-2 mt-2">Operação:</h3>
                 <p className="text-gray-600 text-xs md:text-custom">
-                O investimento funciona por meio de usinas solares foto voltaícas, que geram energia e a vendem para consumidores através de contratos de longo prazo. O investidor aporta capital na implantação da usina e recebe uma parte da receita gerada pela venda da energia.
+                O investimento funciona por meio de usinas solares fotovoltaicas, que geram energia e a vendem para consumidores através de contratos de longo prazo. O investidor aporta capital na implantação da usina e recebe uma parte da receita gerada pela venda da energia.
                 </p>
               
               
