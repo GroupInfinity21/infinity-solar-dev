@@ -29,9 +29,9 @@ export const Footer = () => {
             </div>
             <div className='flex flex-col items-center'>
                 <h3 className="text-xl font-bold mb-4">Contato</h3>
-                <div className='flex flex-col justify-around h-[120px]'>
+                <div className='flex flex-col w-full sm:items-center justify-around h-[120px]'>
 
-                  <div className='flex items-center justify-between w-[220px]'>
+                  <div className='flex items-center  justify-between w-[220px]'>
                     <div>
                       <Phone/>
                     </div>

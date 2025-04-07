@@ -85,19 +85,19 @@ export const Expiriencie = () =>{
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div>
-                <p className="text-4xl font-bold text-[#f35425]">600+</p>
+                <p className="text-2xl sm:text-4xl font-bold text-[#f35425]">600+</p>
                 <p className="text-sm mt-2">Colaboradores</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#f35425]">R$100M+</p>
+                <p className="text-2xl sm:text-4xl font-bold text-[#f35425]">R$100M+</p>
                 <p className="text-sm mt-2">VGV</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#f35425]">+8</p>
+                <p className="text-2xl sm:text-4xl font-bold text-[#f35425]">+8</p>
                 <p className="text-sm mt-2">Empresas associadas</p>
               </div>
               <div>
-                <p className="text-4xl font-bold text-[#f35425]">18+</p>
+                <p className="text-2xl sm:text-4xl font-bold text-[#f35425]">18+</p>
                 <p className="text-sm mt-2">Anos no Mercado</p>
               </div>
             </div>
