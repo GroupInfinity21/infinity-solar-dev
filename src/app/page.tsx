@@ -91,7 +91,7 @@ export default function Home() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="bg-white w-[100%] md:w-full sm:max-w-xl mt-[208px] md:mt-[30px] p-4 md:p-6 rounded-2xl shadow-xl "
+                className="bg-white w-[100%] md:w-full sm:max-w-xl mt-[218px] md:mt-[30px] p-4 md:p-6 rounded-2xl shadow-xl "
               >
                 <h2 className="text-2xl font-bold text-primary mb-6 text-center">
                   Cotas a partir de R$5.500.
