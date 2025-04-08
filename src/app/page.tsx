@@ -75,7 +75,7 @@ export default function Home() {
                     Participe da Indústria que mais cresce na Economia Brasileira. Com a Infinity Solar Share você pode ser sócio no mercado de energia solar e obter retornos de até 2,5% ao mês.
                   </p>
 
-                  <div className="w-full max-w-5xl mx-auto aspect-video rounded-xl overflow-visible md:overflow-hidden shadow-xl mb-2 md: mb-0">
+                  <div className="w-full max-w-5xl mx-auto aspect-video rounded-xl overflow-visible md:overflow-hidden shadow-xl mb-3 md:mb-0">
                     <iframe
                         className="w-full h-full"
                         src="https://www.youtube.com/embed/My_P2OFtXNg"
