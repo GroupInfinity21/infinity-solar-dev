@@ -152,7 +152,7 @@ export default function Home() {
       <Invest/>
       <HowWork/>
       <Faq/>
-      <Mapa/>
+      {/* <Mapa/> */}
       <Footer/>
       
     </main>
