@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export const HowWork = () =>{
     return (
-        <section className="py-10 bg-white md:py-20">
+        <section className="py-10 bg-white md:py-16">
         <div className="max-w-[1200px] sm: h-full mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

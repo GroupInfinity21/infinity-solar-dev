@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { Building2, Target, Trophy, Users2 } from "lucide-react"
+import Mapa from "./Map";
 
 export const Expiriencie = () =>{
     return(
@@ -103,6 +104,7 @@ export const Expiriencie = () =>{
             </div>
           </motion.div>
         </div>
+       
       </section>
     )
 }
