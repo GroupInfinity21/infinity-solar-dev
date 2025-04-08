@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <section className="relative h-[135vh]">
+      <section className="relative h-[135vh] md:h-screen">
         <div className="absolute inset-0 bg-[url('/solar-panels.jpg')] bg-cover bg-center" />
         <div className="absolute inset-0 hero-bg" />
 
