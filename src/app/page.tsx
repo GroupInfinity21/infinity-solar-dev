@@ -55,7 +55,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-white flex flex-col items-center justify-start md:justify-center h-full w-full mb-30 md:w-1/2 md:mb-[12pc]"
+              className="text-white flex flex-col items-center justify-start md:justify-center h-full w-full mb-30 md:w-1/2 md:mb-[10pc]"
             >  
 
               <div className="w-full flex justify-center items-start pt-0 md:pt-4">
