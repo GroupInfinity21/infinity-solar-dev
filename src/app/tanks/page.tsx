@@ -10,7 +10,7 @@ declare global {
     }
 }
 
-export const Tanks = () =>{
+export default function Page () {
   
       const fbq = (...args: any[]) => {
         if (typeof window !== 'undefined' && typeof window.fbq !== 'undefined') {
@@ -75,4 +75,3 @@ export const Tanks = () =>{
     )
 }
 
-export default Tanks;
