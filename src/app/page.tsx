@@ -21,7 +21,7 @@ export default function Home() {
     email: '',
     phone: '',
 
-    
+
   });
 
   const handleSubmit = (e: React.FormEvent) => {
