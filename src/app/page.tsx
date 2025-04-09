@@ -11,8 +11,11 @@ import Expiriencie from './components/Expirencie';
 import { Invest } from './components/invest';
 import emailjs from "emailjs-com";
 import Mapa from './components/Map';
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter()
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -38,6 +41,8 @@ export default function Home() {
       phone: ''
      }
     )
+
+    router.push('/pageTanks')
   };
 
 
@@ -153,6 +158,7 @@ export default function Home() {
       <HowWork/>
       <Faq/>
       {/* <Mapa/> */}
+      {/* <PageThanks/> */}
       <Footer/>
       
     </main>
