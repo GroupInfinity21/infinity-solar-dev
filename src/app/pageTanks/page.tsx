@@ -75,5 +75,3 @@ export const pageTanks = () =>{
       </div>
     )
 }
-
-export default pageTanks;
