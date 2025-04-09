@@ -20,6 +20,7 @@ export default function Home() {
     name: '',
     email: '',
     phone: '',
+    
   });
 
   const handleSubmit = (e: React.FormEvent) => {
