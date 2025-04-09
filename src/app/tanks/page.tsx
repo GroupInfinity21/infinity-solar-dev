@@ -16,6 +16,9 @@ export default function Page () {
         if (typeof window !== 'undefined' && typeof window.fbq !== 'undefined') {
           window.fbq(...args)
         }
+
+
+        
      }
       
     const openWpp = () =>{
