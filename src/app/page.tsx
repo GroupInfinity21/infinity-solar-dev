@@ -42,7 +42,7 @@ export default function Home() {
      }
     )
 
-    router.push('/pageTanks')
+    router.push('/pagetanks')
   };
 
 
