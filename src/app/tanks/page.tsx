@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import { MessageCircle } from "lucide-react";
 import Image from "next/image";
