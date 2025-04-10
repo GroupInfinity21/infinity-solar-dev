@@ -101,7 +101,7 @@ export default function Home() {
                 className="bg-white w-[100%] md:w-full sm:max-w-xl mt-[248px] md:mt-[30px] p-4 md:p-6 rounded-2xl shadow-xl "
               >
                 <h2 className="text-2xl font-bold text-primary mb-6 text-center">
-                  Cotas a partir de R$5.500.
+                  Cotas a partir de R$1.500.
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-1 md:space-y-4">
                   <div>
