@@ -94,12 +94,28 @@ export default function Home() {
                   </div>
             </motion.div>
 
+            <div className="flex flex-col md:w-[500px] mt-60 md:mt-0">
+            <div className="flex justify-center items-center">
+                <a
+                  href="https://www.infinitysolarshare.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    type="button"
+                    className="button-primary text-white font-semibold py-2 px-4 rounded-xl transition duration-300"
+                  >
+                    Seja um representante
+                  </button>
+                </a>
+              </div>
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="bg-white w-[100%] md:w-full sm:max-w-xl mt-[248px] md:mt-[30px] p-4 md:p-6 rounded-2xl shadow-xl "
+                className="bg-white w-[100%] md:w-full sm:max-w-xl mt-[38px] md:mt-[30px] p-4 md:p-6 rounded-2xl shadow-xl "
               >
+
                 <h2 className="text-2xl font-bold text-primary mb-6 text-center">
                   Cotas a partir de R$1.500.
                 </h2>
@@ -151,6 +167,7 @@ export default function Home() {
                   Retorno estimado de até 2,5% ao mês
                 </p>
               </motion.div>
+            </div>
         </div>
 
       </section>
