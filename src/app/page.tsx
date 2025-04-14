@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import toast from 'react-hot-toast';
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Footer from './components/footer';
@@ -27,14 +28,19 @@ export default function Home() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (!formData.name || !formData.email || !formData.phone) {
+      toast.error("Preencha todos os campos!");
+      return; 
+    }
+
     emailjs.send(
       "service_fu2ktnd",  
       "template_c842hrl", 
       formData,
       "5y6YB_L_SIPQakRdC"
     )
-    .then(() => console.log("E-mail enviado com sucesso!"))
-    .catch((error) => console.error("Erro ao enviar e-mail:", error));
+    .then(() => toast.success("E-mail enviado com sucesso!"))
+    .catch((error) => toast.error("Erro ao enviar e-mail:", error));
 
     setFormData(
      {

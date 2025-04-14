@@ -1,6 +1,7 @@
 import Script from 'next/script';
 import './globals.css';
 import { Inter } from 'next/font/google';
+import { Toaster } from 'react-hot-toast'; 
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,7 +25,9 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon-16x16.png" type="image/x-icon" />
       </head>
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
+      <Toaster position="top-right" /> 
+        {children}
 
       <Script id="fb-pixel" strategy="afterInteractive">
           {`
