@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="w-full max-w-5xl mx-auto aspect-video rounded-xl overflow-visible md:overflow-hidden shadow-xl mb-3 md:mb-0">
                     <iframe
                         className="w-full h-full"
-                        src="https://www.youtube.com/embed/My_P2OFtXNg"
+                        src="https://www.youtube.com/embed/qY4MWXjpKIw"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
