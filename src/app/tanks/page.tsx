@@ -3,7 +3,6 @@
 import { MessageCircle } from "lucide-react";
 import Image from "next/image";
 
-
 declare global {
     interface Window {
       fbq: (...args: any[]) => void
@@ -15,10 +14,7 @@ export default function Page () {
       const fbq = (...args: any[]) => {
         if (typeof window !== 'undefined' && typeof window.fbq !== 'undefined') {
           window.fbq(...args)
-        }
-
-
-        
+        } 
      }
       
     const openWpp = () =>{
@@ -26,7 +22,7 @@ export default function Page () {
         window.open(wpp, "_blank")
 
         if (typeof window !== 'undefined' && 'fbq' in window) {
-            fbq('trackCustom', 'contact')
+            fbq('trackCustom', 'Contact')
           }        
     }
 
