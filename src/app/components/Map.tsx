@@ -7,9 +7,7 @@ const containerStyle = {
 };
 
 const locais = {
-  'São Paulo': { lat: -23.55052, lng: -46.633308 },
-  'Rio de Janeiro': { lat: -22.906847, lng: -43.172897 },
-  'Brasília': { lat: -15.793889, lng: -47.882778 }
+ 'João Pessoa': { lat: -23.55052, lng: -46.633308 }
 };
 
 export default function Mapa() {
@@ -17,7 +15,7 @@ export default function Mapa() {
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!
   });
 
-  const [local, setLocal] = useState(locais['São Paulo']);
+  const [local, setLocal] = useState(locais['João Pessoa']);
   const mapRef = useRef<google.maps.Map | null>(null);
 
   if (!isLoaded) return <div>Carregando mapa...</div>;
@@ -74,27 +72,13 @@ export default function Mapa() {
                 className="flex items-center gap-4 p-1 border border-gray-200 rounded-lg shadow-sm bg-white mb-2"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1200&auto=format&fit=crop"
+                  src="https://preview.redd.it/l0ergarfzst61.png?width=320&crop=smart&auto=webp&s=cb9284e08e27c866410605d040de030546478ab9"
                   alt=''
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
-                  <p className="text-sm font-semibold">Matheus Duarte</p>
-                  <p className="text-sm text-gray-500">+5583987340857</p>
-                </div>
-              </div>
-
-              <div
-                className="flex items-center gap-4 p-1 border border-gray-200 rounded-lg shadow-sm bg-white"
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1200&auto=format&fit=crop"
-                  alt=''
-                  className="w-12 h-12 rounded-full object-cover"
-                />
-                <div>
-                  <p className="text-sm font-semibold">Matheus Duarte</p>
-                  <p className="text-sm text-gray-500">+5583987340857</p>
+                  <p className="text-sm font-semibold">Maurício Sant'anna</p>
+                  <p className="text-sm text-gray-500">+55 (83) 98711-6222</p>
                 </div>
               </div>
 
@@ -103,18 +87,21 @@ export default function Mapa() {
               <hr/>
             <div>
               <span className='text-xs p-1'>
-              A Infinity Solar conta com representantes em diversas regiões do Brasil.
-              Selecione um estado acima para visualizar nossas unidades e encontrar o representante mais próximo de você.
+                A Infinity Solar conta com representantes em diversas regiões do Brasil.
+                Selecione um estado acima para visualizar nossas unidades e encontrar o representante mais próximo de você.
               </span>
             </div>
         </div>
           <div className='w-full md:w-1/2'>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=..."
-              width="100%"
-              height="450"
-              loading="lazy"
-            ></iframe>
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126682.29347657792!2d-34.8815975!3d-7.14660885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace839019aa3d7%3A0x6e414a9c6d26db34!2sJo%C3%A3o%20Pessoa%2C%20PB!5e0!3m2!1spt-BR!2sbr!4v1745512167380!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          />
           </div>
         </div>
     </div>

@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import Footer from './components/footer';
 import { Faq } from './components/faq';
 import HowWork from './components/HowWork'
@@ -21,8 +20,6 @@ export default function Home() {
     name: '',
     email: '',
     phone: '',
-
-
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -182,7 +179,7 @@ export default function Home() {
       <Invest/>
       <HowWork/>
       <Faq/>
-      {/* <Mapa/> */}
+      <Mapa/>
       {/* <PageThanks/> */}
       <Footer/>
       
