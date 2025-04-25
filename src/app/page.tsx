@@ -120,7 +120,7 @@ export default function Home() {
               >
 
                 <h2 className="text-2xl font-bold text-primary mb-6 text-center">
-                  Cotas a partir de R$1.500.
+                  Cotas a partir de R$5.000.
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-1 md:space-y-4">
                   <div>
@@ -167,7 +167,7 @@ export default function Home() {
                   </button>
                 </form>
                 <p className="text-sm text-gray-500 mt-4 text-center">
-                  Retorno estimado de até 2,5% ao mês
+                  Retorno estimado de até 2% ao mês
                 </p>
               </motion.div>
             </div>
