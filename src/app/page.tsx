@@ -78,11 +78,11 @@ export default function Home() {
                 />
               </div>
                   <p className="text-base sm:text-xl md:text-3xl font-extrabold mb-0 md:mb-3 md:leading-8 text-center md:text-left">
-                    Comece a investir no mercado de energia solar e tenha rendimentos de até 2,5% ao mês.
+                    Comece a investir no mercado de energia solar e tenha rendimentos de até 2% ao mês.
                   </p>
 
                   <p className="text-sm sm:text-base md:text-lg mb-3 font-medium text-center mt-2 md:mt-0 md:text-justify text-gray-100">
-                    Participe da Indústria que mais cresce na Economia Brasileira. Com a Infinity Solar Share você pode ser sócio no mercado de energia solar e obter retornos de até 2,5% ao mês.
+                    Participe da Indústria que mais cresce na Economia Brasileira. Com a Infinity Solar Share você pode ser sócio no mercado de energia solar e obter retornos de até 2% ao mês.
                   </p>
 
                   <div className="w-full max-w-5xl mx-auto aspect-video rounded-xl overflow-visible md:overflow-hidden shadow-xl mb-3 md:mb-0">
