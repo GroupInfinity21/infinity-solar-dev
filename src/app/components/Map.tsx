@@ -21,9 +21,8 @@ const locais = {
 
 const contatosPorCidade = {
   'João Pessoa': [
-    { nome: 'Jorge Alves', telefone: '+55 (83) 98711-6225' },
-    { nome: 'Flávio José', telefone: '+55 (83) 98820-6225' },
-    { nome: 'Erllon Matias', telefone: '+55 (83) 98711-6002' },
+    { nome: 'Graziely Araujo', telefone: '+55 (83) 99189-5006' },
+    { nome: 'José Guilherme', telefone: '+55 (83) 99418-8585' },
   ],
   'São Paulo': [
     { nome: 'Camila Santos', telefone: '+55 (11) 91234-5678' },
