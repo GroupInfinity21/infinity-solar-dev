@@ -12,7 +12,11 @@ const locais = {
   'Rio de Janeiro': {
     coords: { lat: -22.906847, lng: -43.172896 },
     iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9929871742364!2d-43.207500385036304!3d-22.903539685010757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd59814c73b%3A0xc01c1d7d7d37a649!2sCentro%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1683812043152!5m2!1spt-BR!2sbr'
-  }
+  },
+  'Fortaleza': {
+   coords: { lat: -3.71722, lng: -38.5433 },
+   iframe: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15921.41990535183!2d-38.54802345!3d-3.71722025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74857c5ad5f8d%3A0x82c13b6e8cf343b2!2sFortaleza%2C%20CE!5e0!3m2!1spt-BR!2sbr!4v1683823452311!5m2!1spt-BR!2sbr'
+}
 };
 
 const contatosPorCidade = {
@@ -29,6 +33,9 @@ const contatosPorCidade = {
     { nome: 'Larissa Souza', telefone: '+55 (21) 99876-5432' },
     { nome: 'Carlos Henrique', telefone: '+55 (21) 98712-3344' },
   ],
+  'Fortaleza':[
+    { nome: 'Carlos Alberto', telefone: '+55 (85) 98863-4070'}
+  ]
 };
 
 export default function Mapa() {
