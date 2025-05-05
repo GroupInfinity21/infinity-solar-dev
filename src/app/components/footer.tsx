@@ -1,3 +1,5 @@
+'use client'
+
 import { Mail, MapPinned, Phone } from "lucide-react"
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 import { useTranslation } from 'next-i18next'

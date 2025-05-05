@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from "framer-motion"
 import { useTranslation } from 'next-i18next';
 import '../../../i18n';
