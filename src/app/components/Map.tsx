@@ -25,7 +25,7 @@ const locais: Record<Cidade, Local> = {
   }
 };
 
-export default function Mapa() {
+export  function Mapa() {
   const { t } = useTranslation();
   const [cidadeAtual, setCidadeAtual] = useState<Cidade>('João Pessoa');
 

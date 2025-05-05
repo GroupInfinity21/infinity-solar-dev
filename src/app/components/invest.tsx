@@ -86,5 +86,3 @@ export const Invest = () =>{
     </section>
     )
 }
-
-export default Invest;

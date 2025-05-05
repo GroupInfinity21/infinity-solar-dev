@@ -76,5 +76,3 @@ export const HowWork = () =>{
     </section>
     )
 }
-
-export default HowWork;

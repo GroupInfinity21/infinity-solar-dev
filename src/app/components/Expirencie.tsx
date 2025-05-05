@@ -100,5 +100,3 @@ export const Expiriencie = () => {
   
   )
 }
-
-export default Expiriencie
