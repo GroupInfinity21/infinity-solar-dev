@@ -1,10 +1,9 @@
 'use client'
 
-
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import '../../../i18n';
-import type { Cidade, Local, MapaTranslations } from '../types/mapa';
+import type { Cidade, Local } from '../types/mapa';
 
 const locais: Record<Cidade, Local> = {
   'João Pessoa': {
@@ -25,7 +24,7 @@ const locais: Record<Cidade, Local> = {
   }
 };
 
-export  function Mapa() {
+export const Mapa = () => {
   const { t } = useTranslation();
   const [cidadeAtual, setCidadeAtual] = useState<Cidade>('João Pessoa');
 
@@ -97,3 +96,5 @@ export  function Mapa() {
     </div>
   );
 }
+
+export default Map;
