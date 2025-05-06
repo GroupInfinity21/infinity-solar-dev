@@ -1,29 +1,27 @@
-'use client';
+'use client'
 
-import { useEffect, useState } from 'react';
-import React from 'react';
-import { useTranslation } from 'react-i18next'; 
+import { useEffect, useState } from 'react'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 import '../../../i18n'
 
-
 export default function LanguageSwitcher() {
-
-  const [isClient, setIsClient] = useState(false);
-  const { i18n } = useTranslation(); 
+  const [isClient, setIsClient] = useState(false)
+  const { i18n } = useTranslation()
   useEffect(() => {
-    setIsClient(true);
-  }, []);
+    setIsClient(true)
+  }, [])
 
   if (!isClient) {
-    return null;
+    return null
   }
 
-  const currentLanguage = i18n.language; 
-  const switchTo = currentLanguage === 'pt-BR' ? 'en-US' : 'pt-BR';
+  const currentLanguage = i18n.language
+  const switchTo = currentLanguage === 'pt-BR' ? 'en-US' : 'pt-BR'
 
   const handleLanguageSwitch = () => {
-    i18n.changeLanguage(switchTo); 
-  };
+    i18n.changeLanguage(switchTo)
+  }
 
   return (
     <button
@@ -32,5 +30,5 @@ export default function LanguageSwitcher() {
     >
       {switchTo.toUpperCase()}
     </button>
-  );
+  )
 }

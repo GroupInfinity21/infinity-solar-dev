@@ -1,111 +1,107 @@
 {
-    "hero_title": "Start investing in the solar energy market and earn up to 2% per month.",
-    "hero_subtitle": "Join the fastest growing industry in the Brazilian economy. With Infinity Solar Share, you can become a partner in the solar energy market and earn returns of up to 2% per month.",
-    "quota_info": "Shares starting at R$5,000.",
-    "form_name_label": "Full name",
-    "form_email_label": "Email",
-    "form_phone_label": "Phone number with area code",
-    "form_submit_button": "I want to invest now",
-    "estimated_return": "Estimated return of up to 2% per month",
-    "represatative_button": "Join as a representative",
+  "hero_title": "Start investing in the solar energy market and earn up to 2% per month.",
+  "hero_subtitle": "Join the fastest growing industry in the Brazilian economy. With Infinity Solar Share, you can become a partner in the solar energy market and earn returns of up to 2% per month.",
+  "quota_info": "Shares starting at R$5,000.",
+  "form_name_label": "Full name",
+  "form_email_label": "Email",
+  "form_phone_label": "Phone number with area code",
+  "form_submit_button": "I want to invest now",
+  "estimated_return": "Estimated return of up to 2% per month",
+  "represatative_button": "Join as a representative",
 
-    "experience_title": "About Us",
-    "experience_paragraph1": "Grupo Viver Infinity is a company specialized in the development and management of timeshares, known for its innovative techniques and high absorption rates, with over 18 years in the market and more than R$100 million in VGV.",
-    "experience_paragraph2": "The company is divided into seven areas: hospitality and timeshare, travel agency, specialized consulting, after-sales, healthcare, perfume franchise, charging stations and solar energy. Each area is interconnected, covering the customer journey from prospecting to post-sales.",
-  
-    "team_title": "Our Team",
-    "team_description": "We have highly qualified professionals with solid experience in the solar energy and investment market.",
-  
-    "mission_title": "Our Mission",
-    "mission_description": "To democratize access to clean energy investments, creating value for our investors and the planet.",
-  
-    "structure_title": "Our Structure",
-    "structure_description": "Robust infrastructure and strict processes to ensure the safety and profitability of investments.",
-  
-    "experience_section_title": "Our Experience",
-    "experience_section_description": "With years of market experience, we have helped hundreds of investors reach their financial goals through solar energy.",
-  
-    "metric_employees": "Employees",
-    "metric_vgv": "Gross Sales Value",
-    "metric_companies": "Associated companies",
-    "metric_years": "Years in the Market",
+  "experience_title": "About Us",
+  "experience_paragraph1": "Grupo Viver Infinity is a company specialized in the development and management of timeshares, known for its innovative techniques and high absorption rates, with over 18 years in the market and more than R$100 million in VGV.",
+  "experience_paragraph2": "The company is divided into seven areas: hospitality and timeshare, travel agency, specialized consulting, after-sales, healthcare, perfume franchise, charging stations and solar energy. Each area is interconnected, covering the customer journey from prospecting to post-sales.",
 
-    "how_to_invest_title": "How to Invest",
-    "how_to_invest_description": "Access our exclusive system for partner shareholders and monitor your invested returns.",
-    "step1_title": "Fill in your details",
-    "step1_description": "Use the form at the top of the page to provide us with your contact information.",
-    "step2_title": "Wait for our contact",
-    "step2_description": "Our specialized team will get in touch to present the best investment options.",
-    "step3_title": "Complete your investment",
-    "step3_description": "Digitally sign the contract and make a secure payment to start investing.",
+  "team_title": "Our Team",
+  "team_description": "We have highly qualified professionals with solid experience in the solar energy and investment market.",
 
-      "how_it_works_title": "How It Works",
-      "how_it_works_description": "Understand how the solar energy investment process works",
-      "implantation_phase_title": "Implementation Phase:",
-      "implantation_phase_description": "Infinity Solar Share owns the power plants, and during the implementation phase, each partner receives a 2% monthly return for the initial 12-month period.",
-      "operation_title": "Operation",
-      "operation_description": "The investment works through photovoltaic solar plants that generate energy and sell it to consumers via long-term contracts. The investor provides capital for the plant’s implementation and receives a share of the revenue from energy sales.",
-      "receiving_title": "Payout:",
-      "receiving_description": "After your first contribution is confirmed, your money starts earning returns the next day, continuing through the end of the month. Payments are made every 5th day of the month.",
-    
-    "faq_title": "Get all your questions answered",
-      "faqs": [
-        {
-          "question": "How can I acquire investment shares in Infinity Solar Share?",
-          "answer": "To acquire investment shares in Infinity Solar Share, you need to fill out your details in the form at the beginning of the website. Shortly, one of our consultants will contact you."
-        },
-        {
-          "question": "What is the minimum investment amount for Infinity Solar Share?",
-          "answer": "The initial investment amount is R$ 5,500 per share, and investors can purchase multiple shares at the same value."
-        },
-        {
-          "question": "What are the benefits of investing through Infinity Solar Share?",
-          "answer": "Benefits include potential above-market returns, portfolio diversification, and participation in the solar energy market with Infinity Solar Share's expertise in managing these investments."
-        },
-        {
-          "question": "How does Infinity Solar Share manage the investments?",
-          "answer": "Infinity Solar Share employs risk management strategies and practices to protect investors' interests. This may include diversifying investments across different geographic areas, using futures contracts to minimize exposure to price fluctuations, and selecting suppliers and buyers under the strictest compliance rules."
-        }
+  "mission_title": "Our Mission",
+  "mission_description": "To democratize access to clean energy investments, creating value for our investors and the planet.",
+
+  "structure_title": "Our Structure",
+  "structure_description": "Robust infrastructure and strict processes to ensure the safety and profitability of investments.",
+
+  "experience_section_title": "Our Experience",
+  "experience_section_description": "With years of market experience, we have helped hundreds of investors reach their financial goals through solar energy.",
+
+  "metric_employees": "Employees",
+  "metric_vgv": "Gross Sales Value",
+  "metric_companies": "Associated companies",
+  "metric_years": "Years in the Market",
+
+  "how_to_invest_title": "How to Invest",
+  "how_to_invest_description": "Access our exclusive system for partner shareholders and monitor your invested returns.",
+  "step1_title": "Fill in your details",
+  "step1_description": "Use the form at the top of the page to provide us with your contact information.",
+  "step2_title": "Wait for our contact",
+  "step2_description": "Our specialized team will get in touch to present the best investment options.",
+  "step3_title": "Complete your investment",
+  "step3_description": "Digitally sign the contract and make a secure payment to start investing.",
+
+  "how_it_works_title": "How It Works",
+  "how_it_works_description": "Understand how the solar energy investment process works",
+  "implantation_phase_title": "Implementation Phase:",
+  "implantation_phase_description": "Infinity Solar Share owns the power plants, and during the implementation phase, each partner receives a 2% monthly return for the initial 12-month period.",
+  "operation_title": "Operation",
+  "operation_description": "The investment works through photovoltaic solar plants that generate energy and sell it to consumers via long-term contracts. The investor provides capital for the plant’s implementation and receives a share of the revenue from energy sales.",
+  "receiving_title": "Payout:",
+  "receiving_description": "After your first contribution is confirmed, your money starts earning returns the next day, continuing through the end of the month. Payments are made every 5th day of the month.",
+
+  "faq_title": "Get all your questions answered",
+  "faqs": [
+    {
+      "question": "How can I acquire investment shares in Infinity Solar Share?",
+      "answer": "To acquire investment shares in Infinity Solar Share, you need to fill out your details in the form at the beginning of the website. Shortly, one of our consultants will contact you."
+    },
+    {
+      "question": "What is the minimum investment amount for Infinity Solar Share?",
+      "answer": "The initial investment amount is R$ 5,500 per share, and investors can purchase multiple shares at the same value."
+    },
+    {
+      "question": "What are the benefits of investing through Infinity Solar Share?",
+      "answer": "Benefits include potential above-market returns, portfolio diversification, and participation in the solar energy market with Infinity Solar Share's expertise in managing these investments."
+    },
+    {
+      "question": "How does Infinity Solar Share manage the investments?",
+      "answer": "Infinity Solar Share employs risk management strategies and practices to protect investors' interests. This may include diversifying investments across different geographic areas, using futures contracts to minimize exposure to price fluctuations, and selecting suppliers and buyers under the strictest compliance rules."
+    }
+  ],
+
+  "footer": {
+    "company_name": "Infinity Solar Share",
+    "company_description": "Infinity Solar Share is a company specialized in shared solar energy solutions, offering investors the opportunity to participate in sustainable and profitable solar projects.",
+    "contact_title": "Contact",
+    "phone": "+55 (83) 99807 - 2443",
+    "email": "Contact@infinitysolarshare.com.br",
+    "address": "Av. Pres. Epitácio Pessoa, 3663 - Miramar, João Pessoa - PB, Brazil",
+    "follow_us": "Follow us",
+    "copyright": "CNPJ: 52.444.363/00001-10 © 2025 Infinity Solar Share. All rights reserved. Developed by Matheus Duarte"
+  },
+
+  "mapa": {
+    "titulo": "Select a state",
+    "descricao": "Infinity Solar has representatives in several regions of Brazil. Select a state above to view our locations and find the representative closest to you.",
+    "cidades": {
+      "João Pessoa": "João Pessoa",
+      "São Paulo": "São Paulo",
+      "Rio de Janeiro": "Rio de Janeiro",
+      "Fortaleza": "Fortaleza"
+    },
+    "contatos": {
+      "João Pessoa": [
+        { "nome": "Graziely Araujo", "telefone": "+55 (83) 99189-5006" },
+        { "nome": "José Guilherme", "telefone": "+55 (83) 99418-8585" }
       ],
-
-        "footer": {
-          "company_name": "Infinity Solar Share",
-          "company_description": "Infinity Solar Share is a company specialized in shared solar energy solutions, offering investors the opportunity to participate in sustainable and profitable solar projects.",
-          "contact_title": "Contact",
-          "phone": "+55 (83) 99807 - 2443",
-          "email": "Contact@infinitysolarshare.com.br", 
-          "address": "Av. Pres. Epitácio Pessoa, 3663 - Miramar, João Pessoa - PB, Brazil",
-          "follow_us": "Follow us",
-          "copyright": "CNPJ: 52.444.363/00001-10 © 2025 Infinity Solar Share. All rights reserved. Developed by Matheus Duarte"
-        },
-
-        "mapa": {
-          "titulo": "Select a state",
-          "descricao": "Infinity Solar has representatives in several regions of Brazil. Select a state above to view our locations and find the representative closest to you.",
-          "cidades": {
-            "João Pessoa": "João Pessoa",
-            "São Paulo": "São Paulo",
-            "Rio de Janeiro": "Rio de Janeiro",
-            "Fortaleza": "Fortaleza"
-          },
-        "contatos": {
-          "João Pessoa": [
-            { "nome": "Graziely Araujo", "telefone": "+55 (83) 99189-5006" },
-            { "nome": "José Guilherme", "telefone": "+55 (83) 99418-8585" }
-          ],
-          "São Paulo": [
-            { "nome": "Camila Santos", "telefone": "+55 (11) 91234-5678" },
-            { "nome": "Renato Lima", "telefone": "+55 (11) 98765-4321" }
-          ],
-          "Rio de Janeiro": [
-            { "nome": "Larissa Souza", "telefone": "+55 (21) 99876-5432" },
-            { "nome": "Carlos Henrique", "telefone": "+55 (21) 98712-3344" }
-          ],
-          "Fortaleza": [
-            { "nome": "Carlos Alberto", "telefone": "+55 (85) 98863-4070" }
-          ]
-        }
+      "São Paulo": [
+        { "nome": "Camila Santos", "telefone": "+55 (11) 91234-5678" },
+        { "nome": "Renato Lima", "telefone": "+55 (11) 98765-4321" }
+      ],
+      "Rio de Janeiro": [
+        { "nome": "Larissa Souza", "telefone": "+55 (21) 99876-5432" },
+        { "nome": "Carlos Henrique", "telefone": "+55 (21) 98712-3344" }
+      ],
+      "Fortaleza": [{ "nome": "Carlos Alberto", "telefone": "+55 (85) 98863-4070" }]
+    }
   }
-      
-  }
-  
+}

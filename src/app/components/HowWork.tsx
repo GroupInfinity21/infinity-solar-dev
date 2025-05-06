@@ -1,16 +1,15 @@
 'use client'
 
-import { motion } from "framer-motion"
-import { useTranslation } from 'next-i18next';
-import React from 'react';
+import { motion } from 'framer-motion'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 import '../../../i18n'
 
-export default function HowWork () {
+export default function HowWork() {
+  const { t } = useTranslation()
 
-  const { t } = useTranslation();
-
-    return (
-      <section className="py-10 bg-white md:py-16">
+  return (
+    <section className="py-10 bg-white md:py-16">
       <div className="max-w-[1200px] h-full mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -19,12 +18,8 @@ export default function HowWork () {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-[#123c6f] mb-4">
-            {t("how_it_works_title")}
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t("how_it_works_description")}
-          </p>
+          <h2 className="text-4xl font-bold text-[#123c6f] mb-4">{t('how_it_works_title')}</h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t('how_it_works_description')}</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
@@ -51,29 +46,25 @@ export default function HowWork () {
           >
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-[#f35425] h-full flex flex-col justify-center">
               <h3 className="text-xl font-semibold text-[#123c6f] mb-2 mt-2">
-                {t("implantation_phase_title")}
+                {t('implantation_phase_title')}
               </h3>
               <p className="text-gray-600 text-xs md:text-custom">
-                {t("implantation_phase_description")}
+                {t('implantation_phase_description')}
               </p>
 
               <h3 className="text-xl font-semibold text-[#123c6f] mb-2 mt-2">
-                {t("operation_title")}
+                {t('operation_title')}
               </h3>
-              <p className="text-gray-600 text-xs md:text-custom">
-                {t("operation_description")}
-              </p>
+              <p className="text-gray-600 text-xs md:text-custom">{t('operation_description')}</p>
 
               <h3 className="text-xl font-semibold text-[#123c6f] mb-2 mt-2">
-                {t("receiving_title")}
+                {t('receiving_title')}
               </h3>
-              <p className="text-gray-600 text-xs md:text-custom">
-                {t("receiving_description")}
-              </p>
+              <p className="text-gray-600 text-xs md:text-custom">{t('receiving_description')}</p>
             </div>
           </motion.div>
         </div>
       </div>
     </section>
-    )
+  )
 }

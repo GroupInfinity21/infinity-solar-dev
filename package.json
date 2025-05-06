@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
@@ -33,7 +35,12 @@
   "devDependencies": {
     "@types/i18next": "^12.1.0",
     "autoprefixer": "^10.4.17",
+    "eslint": "^9.26.0",
+    "eslint-config-next": "15.3.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.4.0",
     "postcss": "^8.4.33",
+    "prettier": "^3.5.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
   }

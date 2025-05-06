@@ -7,5 +7,5 @@ module.exports = {
   i18next: {
     defaultNS: 'common',
     returnObjects: true, // 👈 Isso permite retornar arrays/objetos nas traduções
-  }
-};
+  },
+}

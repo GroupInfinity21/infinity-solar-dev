@@ -1,117 +1,107 @@
 {
-    "hero_title": "Comece a investir no mercado de energia solar e tenha rendimentos de até 2% ao mês.",
-    "hero_subtitle": "Participe da Indústria que mais cresce na Economia Brasileira. Com a Infinity Solar Share você pode ser sócio no mercado de energia solar e obter retornos de até 2% ao mês.",
-    "quota_info": "Cotas a partir de R$5.000.",
-    "form_name_label": "Nome completo",
-    "form_email_label": "E-mail",
-    "form_phone_label": "Número com DDD",
-    "form_submit_button": "Quero investir agora",
-    "estimated_return": "Retorno estimado de até 2% ao mês",
-    "represatative_button": "Seja um representante",
-    
+  "hero_title": "Comece a investir no mercado de energia solar e tenha rendimentos de até 2% ao mês.",
+  "hero_subtitle": "Participe da Indústria que mais cresce na Economia Brasileira. Com a Infinity Solar Share você pode ser sócio no mercado de energia solar e obter retornos de até 2% ao mês.",
+  "quota_info": "Cotas a partir de R$5.000.",
+  "form_name_label": "Nome completo",
+  "form_email_label": "E-mail",
+  "form_phone_label": "Número com DDD",
+  "form_submit_button": "Quero investir agora",
+  "estimated_return": "Retorno estimado de até 2% ao mês",
+  "represatative_button": "Seja um representante",
 
-    "experience_title": "Sobre Nós",
-    "experience_paragraph1": "O Grupo Viver Infinity é uma empresa especializada no desenvolvimento e gestão de multipropriedade, conhecidos pelas técnicas inovadoras e altas taxas de absorção com mais de 18 anos de mercado e mais de 100 milhões em VGV.",
-    "experience_paragraph2": "A empresa está dividida em sete áreas: hotelaria e multipropriedade, agência de viagens, consultoria especializada, pós-vendas, saúde, franquia de perfumaria, eletropostos e energia solar. Cada uma dessas áreas estão ligadas entre si, completando o atendimento do grupo, desde a prospecção de novos clientes até o pós-venda.",
+  "experience_title": "Sobre Nós",
+  "experience_paragraph1": "O Grupo Viver Infinity é uma empresa especializada no desenvolvimento e gestão de multipropriedade, conhecidos pelas técnicas inovadoras e altas taxas de absorção com mais de 18 anos de mercado e mais de 100 milhões em VGV.",
+  "experience_paragraph2": "A empresa está dividida em sete áreas: hotelaria e multipropriedade, agência de viagens, consultoria especializada, pós-vendas, saúde, franquia de perfumaria, eletropostos e energia solar. Cada uma dessas áreas estão ligadas entre si, completando o atendimento do grupo, desde a prospecção de novos clientes até o pós-venda.",
 
-    "team_title": "Nossa Equipe",
-    "team_description": "Contamos com profissionais altamente qualificados e experientes no mercado de energia solar e investimentos.",
+  "team_title": "Nossa Equipe",
+  "team_description": "Contamos com profissionais altamente qualificados e experientes no mercado de energia solar e investimentos.",
 
-    "mission_title": "Nossa Missão",
-    "mission_description": "Democratizar o acesso a investimentos em energia limpa, gerando valor para nossos investidores e para o planeta.",
+  "mission_title": "Nossa Missão",
+  "mission_description": "Democratizar o acesso a investimentos em energia limpa, gerando valor para nossos investidores e para o planeta.",
 
-    "structure_title": "Nossa Estrutura",
-    "structure_description": "Infraestrutura robusta e processos rigorosos para garantir a segurança e rentabilidade dos investimentos.",
+  "structure_title": "Nossa Estrutura",
+  "structure_description": "Infraestrutura robusta e processos rigorosos para garantir a segurança e rentabilidade dos investimentos.",
 
-    "experience_section_title": "Nossa Experiência",
-    "experience_section_description": "Com anos de experiência no mercado, já ajudamos centenas de investidores a alcançarem seus objetivos financeiros através da energia solar.",
+  "experience_section_title": "Nossa Experiência",
+  "experience_section_description": "Com anos de experiência no mercado, já ajudamos centenas de investidores a alcançarem seus objetivos financeiros através da energia solar.",
 
-    "metric_employees": "Colaboradores",
-    "metric_vgv": "VGV",
-    "metric_companies": "Empresas associadas",
-    "metric_years": "Anos no Mercado",
+  "metric_employees": "Colaboradores",
+  "metric_vgv": "VGV",
+  "metric_companies": "Empresas associadas",
+  "metric_years": "Anos no Mercado",
 
-    "how_to_invest_title": "Como Investir",
-    "how_to_invest_description": "Acesse nosso sistema exclusivo para sócios cotistas e acompanhe o rendimento investido.",
-    "step1_title": "Preencha seus dados",
-    "step1_description": "Utilize o formulário no topo da página para nos informar seus dados de contato.",
-    "step2_title": "Aguarde nosso contato",
-    "step2_description": "Nossa equipe especializada entrará em contato para apresentar as melhores opções de investimento.",
-    "step3_title": "Finalize seu investimento",
-    "step3_description": "Assine o contrato digitalmente e realize o pagamento de forma segura para começar a investir.",
+  "how_to_invest_title": "Como Investir",
+  "how_to_invest_description": "Acesse nosso sistema exclusivo para sócios cotistas e acompanhe o rendimento investido.",
+  "step1_title": "Preencha seus dados",
+  "step1_description": "Utilize o formulário no topo da página para nos informar seus dados de contato.",
+  "step2_title": "Aguarde nosso contato",
+  "step2_description": "Nossa equipe especializada entrará em contato para apresentar as melhores opções de investimento.",
+  "step3_title": "Finalize seu investimento",
+  "step3_description": "Assine o contrato digitalmente e realize o pagamento de forma segura para começar a investir.",
 
-    "how_it_works_title": "Como Funciona",
-    "how_it_works_description": "Entenda como funciona o processo de investimento em energia solar",
-    "implantation_phase_title": "Fase de Implantação:",
-    "implantation_phase_description": "A Infinity Solar Share é proprietária das Usinas e durante a fase de implantação cada sócio recebe um rendimento mensal 2% pelo período inicial de 12 meses.",
-    "operation_title": "Operação",
-    "operation_description":"O investimento funciona por meio de usinas solares fotovoltaicas, que geram energia e a vendem para consumidores através de contratos de longo prazo. O investidor aporta capital na implantação da usina e recebe uma parte da receita gerada pela venda da energia.",
-    "receiving_title":"Recebimento:",
-    "receiving_description": "Após a confirmação do seu primeiro aporte, seu dinheiro já começa a render no dia seguinte, durante todo o restante dos dias até fechar o mês. O pagamento é feito todo dia 05 de cada mês.",
+  "how_it_works_title": "Como Funciona",
+  "how_it_works_description": "Entenda como funciona o processo de investimento em energia solar",
+  "implantation_phase_title": "Fase de Implantação:",
+  "implantation_phase_description": "A Infinity Solar Share é proprietária das Usinas e durante a fase de implantação cada sócio recebe um rendimento mensal 2% pelo período inicial de 12 meses.",
+  "operation_title": "Operação",
+  "operation_description": "O investimento funciona por meio de usinas solares fotovoltaicas, que geram energia e a vendem para consumidores através de contratos de longo prazo. O investidor aporta capital na implantação da usina e recebe uma parte da receita gerada pela venda da energia.",
+  "receiving_title": "Recebimento:",
+  "receiving_description": "Após a confirmação do seu primeiro aporte, seu dinheiro já começa a render no dia seguinte, durante todo o restante dos dias até fechar o mês. O pagamento é feito todo dia 05 de cada mês.",
 
-      "faq_title": "Tire todas as suas dúvidas",
-      "faqs": [
-        {
-          "question": "Como adquirir cotas de investimento da Infinity Solar Share?",
-          "answer": "Para adquirir cotas de investimento da Infinity Solar Share, você deve preencher seus dados no formulário no começo do site. Em breve um de nossos consultores irá entrar em contato."
-        },
-        {
-          "question": "Qual é o valor inicial para investir em cotas da Infinity Solar Share?",
-          "answer": "O valor inicial de investimento é de R$ 5.500 por cota, podendo o investidor ter mais cotas de igual valor."
-        },
-        {
-          "question": "Quais são os benefícios de investir por meio das cotas da Infinity Solar Share?",
-          "answer": "Os benefícios incluem potencial de retorno sobre o investimento acima da média do mercado, diversificação de portfólio, participação no mercado de energia solar com a expertise da Infinity Solar Share na gestão desses investimentos."
-        },
-        {
-          "question": "Como a Infinity Solar Share gerencia os investimentos?",
-          "answer": "A Infinity Solar Share possui estratégias e práticas de gestão de riscos para proteger os interesses dos investidores. Isso pode incluir a diversificação de investimentos em diferentes áreas geográficas, o uso de contratos futuros para minimizar a exposição a flutuações de preços e a seleçao de fornecedores e compradores nas mais rígidas regras de compliance."
-        }
+  "faq_title": "Tire todas as suas dúvidas",
+  "faqs": [
+    {
+      "question": "Como adquirir cotas de investimento da Infinity Solar Share?",
+      "answer": "Para adquirir cotas de investimento da Infinity Solar Share, você deve preencher seus dados no formulário no começo do site. Em breve um de nossos consultores irá entrar em contato."
+    },
+    {
+      "question": "Qual é o valor inicial para investir em cotas da Infinity Solar Share?",
+      "answer": "O valor inicial de investimento é de R$ 5.500 por cota, podendo o investidor ter mais cotas de igual valor."
+    },
+    {
+      "question": "Quais são os benefícios de investir por meio das cotas da Infinity Solar Share?",
+      "answer": "Os benefícios incluem potencial de retorno sobre o investimento acima da média do mercado, diversificação de portfólio, participação no mercado de energia solar com a expertise da Infinity Solar Share na gestão desses investimentos."
+    },
+    {
+      "question": "Como a Infinity Solar Share gerencia os investimentos?",
+      "answer": "A Infinity Solar Share possui estratégias e práticas de gestão de riscos para proteger os interesses dos investidores. Isso pode incluir a diversificação de investimentos em diferentes áreas geográficas, o uso de contratos futuros para minimizar a exposição a flutuações de preços e a seleçao de fornecedores e compradores nas mais rígidas regras de compliance."
+    }
+  ],
+
+  "footer": {
+    "company_name": "Infinity Solar Share",
+    "company_description": "A Infinity Solar Share é uma empresa especializada em soluções de energia solar compartilhada, oferecendo aos investidores a oportunidade de participar de projetos solares sustentáveis e rentáveis.",
+    "contact_title": "Contato",
+    "phone": "+55 (83) 99807 - 2443",
+    "email": "Contato@infinitysolarshare.com.br",
+    "address": "Av. Pres. Epitácio Pessoa, 3663 - Miramar, João Pessoa - PB",
+    "follow_us": "Siga-nos",
+    "copyright": "CNPJ: 52.444.363/00001-10 © 2025 Infinity Solar Share. Todos os direitos reservados. Desenvolvido por Matheus Duarte"
+  },
+
+  "mapa": {
+    "titulo": "Selecione um estado",
+    "descricao": "A Infinity Solar conta com representantes em diversas regiões do Brasil. Selecione um estado acima para visualizar nossas unidades e encontrar o representante mais próximo de você.",
+    "cidades": {
+      "João Pessoa": "João Pessoa",
+      "São Paulo": "São Paulo",
+      "Rio de Janeiro": "Rio de Janeiro",
+      "Fortaleza": "Fortaleza"
+    },
+    "contatos": {
+      "João Pessoa": [
+        { "nome": "Graziely Araujo", "telefone": "+55 (83) 99189-5006" },
+        { "nome": "José Guilherme", "telefone": "+55 (83) 99418-8585" }
       ],
-
-
-      
-        "footer": {
-          "company_name": "Infinity Solar Share",
-          "company_description": "A Infinity Solar Share é uma empresa especializada em soluções de energia solar compartilhada, oferecendo aos investidores a oportunidade de participar de projetos solares sustentáveis e rentáveis.",
-          "contact_title": "Contato",
-          "phone": "+55 (83) 99807 - 2443",
-          "email": "Contato@infinitysolarshare.com.br",
-          "address": "Av. Pres. Epitácio Pessoa, 3663 - Miramar, João Pessoa - PB",
-          "follow_us": "Siga-nos",
-          "copyright": "CNPJ: 52.444.363/00001-10 © 2025 Infinity Solar Share. Todos os direitos reservados. Desenvolvido por Matheus Duarte"
-        },
-      
-          "mapa": {
-            "titulo": "Selecione um estado",
-            "descricao": "A Infinity Solar conta com representantes em diversas regiões do Brasil. Selecione um estado acima para visualizar nossas unidades e encontrar o representante mais próximo de você.",
-            "cidades": {
-              "João Pessoa": "João Pessoa",
-              "São Paulo": "São Paulo",
-              "Rio de Janeiro": "Rio de Janeiro",
-              "Fortaleza": "Fortaleza"
-            },
-            "contatos": {
-              "João Pessoa": [
-                { "nome": "Graziely Araujo", "telefone": "+55 (83) 99189-5006" },
-                { "nome": "José Guilherme", "telefone": "+55 (83) 99418-8585" }
-              ],
-              "São Paulo": [
-                { "nome": "Camila Santos", "telefone": "+55 (11) 91234-5678" },
-                { "nome": "Renato Lima", "telefone": "+55 (11) 98765-4321" }
-              ],
-              "Rio de Janeiro": [
-                { "nome": "Larissa Souza", "telefone": "+55 (21) 99876-5432" },
-                { "nome": "Carlos Henrique", "telefone": "+55 (21) 98712-3344" }
-              ],
-              "Fortaleza": [
-                { "nome": "Carlos Alberto", "telefone": "+55 (85) 98863-4070" }
-              ]
-            }
-          }
-        
-    
-    
-
+      "São Paulo": [
+        { "nome": "Camila Santos", "telefone": "+55 (11) 91234-5678" },
+        { "nome": "Renato Lima", "telefone": "+55 (11) 98765-4321" }
+      ],
+      "Rio de Janeiro": [
+        { "nome": "Larissa Souza", "telefone": "+55 (21) 99876-5432" },
+        { "nome": "Carlos Henrique", "telefone": "+55 (21) 98712-3344" }
+      ],
+      "Fortaleza": [{ "nome": "Carlos Alberto", "telefone": "+55 (85) 98863-4070" }]
+    }
   }
-  
+}

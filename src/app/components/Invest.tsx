@@ -1,16 +1,15 @@
 'use client'
 
-import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
-import { useTranslation } from 'next-i18next'; 
-import React from 'react';
+import { motion } from 'framer-motion'
+import { ArrowRight } from 'lucide-react'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 import '../../../i18n'
 
-export default function Invest () {
-
-  const { t } = useTranslation();
-    return(
-      <section className="py-20 bg-white">
+export default function Invest() {
+  const { t } = useTranslation()
+  return (
+    <section className="py-20 bg-white">
       <div className="max-w-[1200px] mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -84,6 +83,5 @@ export default function Invest () {
         </div>
       </div>
     </section>
-    )
+  )
 }
-

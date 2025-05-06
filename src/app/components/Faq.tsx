@@ -1,13 +1,13 @@
 'use client'
 
-import { motion } from "framer-motion"
-import { ChevronDown, ChevronUp } from "lucide-react"
-import { useState } from "react"
-import React from 'react';
+import { motion } from 'framer-motion'
+import { ChevronDown, ChevronUp } from 'lucide-react'
+import { useState } from 'react'
+import React from 'react'
 import { useTranslation } from 'next-i18next'
 import '../../../i18n'
 
-export default function Faq  () {
+export default function Faq() {
   const { t } = useTranslation()
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -26,9 +26,7 @@ export default function Faq  () {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="mt-5 text-4xl font-bold text-[#123c6f] mb-4 md:mt-0">
-            {t("faq_title")}
-          </h2>
+          <h2 className="mt-5 text-4xl font-bold text-[#123c6f] mb-4 md:mt-0">{t('faq_title')}</h2>
         </motion.div>
 
         <div className="max-w-3xl mx-auto space-y-4">
@@ -64,4 +62,3 @@ export default function Faq  () {
     </section>
   )
 }
-

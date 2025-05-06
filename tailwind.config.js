@@ -13,7 +13,7 @@ module.exports = {
         accent: '#f35425',
       },
       fontSize: {
-        'custom': '15px',  // Cria a classe `text-custom`
+        custom: '15px', // Cria a classe `text-custom`
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
