@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { ChevronDown, ChevronUp } from "lucide-react"
 import { useState } from "react"
 import { useTranslation } from 'next-i18next'
+import '../../../i18n'
 
 export default function Faq  () {
   const { t } = useTranslation()
