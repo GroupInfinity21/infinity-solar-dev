@@ -1,21 +1,21 @@
 'use client'
-
 import { motion } from 'framer-motion';
+import React from 'react';
 import { useState } from 'react';
-import toast from 'react-hot-toast';
+import {toast} from 'react-hot-toast';
 import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import emailjs from "emailjs-com";
 import { useTranslation } from 'next-i18next';
 import '../../i18n';
 
-import Footer from './components/footer';
-import Faq from './components/faq';
-import HowWork from './components/HowWork';
-import Expiriencie from './components/Expirencie'; 
-import Mapa from './components/Map';  
-import LanguageSwitcher from './components/LanguageSwitcher';
-import Invest from './components/invest';
+import Footer from '@/app/components/Footer'
+import Faq from '@/app/components/Faq'
+import HowWork from '@/app/components/HowWork'
+import Expirencie from '@/app/components/Expirencie'
+import Mapa from '@/app/components/Map'
+import LanguageSwitcher from '@/app/components/LanguageSwitcher'
+import Invest from '@/app/components/Invest'
 
 export default function Home() {
   
@@ -57,6 +57,7 @@ export default function Home() {
   };
 
   return (
+    <>
     <main className="min-h-screen">
        <LanguageSwitcher />
        <section className="relative h-[145vh] md:h-screen">
@@ -183,12 +184,13 @@ export default function Home() {
          </div>
        </section>
 
-       <Expiriencie/>
+       <Expirencie/>
        <Invest/>
        <HowWork/>
        <Faq/>
        <Mapa/>
        <Footer/>
    </main>
+    </>
   );
 }
