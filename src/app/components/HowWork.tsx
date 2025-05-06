@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { useTranslation } from 'next-i18next';
 import '../../../i18n';
 
-export const HowWork = () =>{
+export default function HowWork () {
 
   const { t } = useTranslation();
 
@@ -76,5 +76,3 @@ export const HowWork = () =>{
     </section>
     )
 }
-
-export default HowWork;

@@ -6,7 +6,7 @@ import { useState } from "react"
 import { useTranslation } from 'next-i18next'
 import '../../../i18n'
 
-export const Faq = () => {
+export default function Faq  () {
   const { t } = useTranslation()
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -64,4 +64,3 @@ export const Faq = () => {
   )
 }
 
-export default Faq;

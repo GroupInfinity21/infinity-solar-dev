@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react"
 import '../../../i18n';
 import { useTranslation } from 'next-i18next'; 
 
-export const Invest = () =>{
+export default function Invest () {
 
   const { t } = useTranslation();
     return(
@@ -87,4 +87,3 @@ export const Invest = () =>{
     )
 }
 
-export default Invest;

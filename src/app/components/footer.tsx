@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa"
 import { useTranslation } from 'next-i18next'
 import '../../../i18n'
 
-export const Footer = () => {
+export default function Footer () {
   const { t } = useTranslation()
   
   const openWpp = () => {
@@ -69,5 +69,3 @@ export const Footer = () => {
     </footer>
   )
 }
-
-export default Footer;
