@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { Cidade, Local } from '../types/mapa';
+import '../../i18n';
 
 const locais: Record<Cidade, Local> = {
   'João Pessoa': {

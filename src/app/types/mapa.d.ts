@@ -1,4 +1,4 @@
-// Adicione isso em um arquivo de tipos (ex: src/types/mapa.d.ts)
+
 export type Cidade = 'João Pessoa' | 'São Paulo' | 'Rio de Janeiro' | 'Fortaleza';
 
 export interface Contato {

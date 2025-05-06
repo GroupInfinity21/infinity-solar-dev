@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import emailjs from "emailjs-com";
 import { useTranslation } from 'next-i18next';
+import '../../i18n';
 
 import Footer from './components/footer';
 import Faq from './components/faq';
@@ -15,6 +16,7 @@ import Expiriencie from './components/Expirencie';
 import Mapa from './components/Map';  
 import LanguageSwitcher from './components/LanguageSwitcher';
 import Invest from './components/invest';
+
 export default function Home() {
   
   const { t } = useTranslation();
