@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import '../../../i18n';
 import type { Cidade, Local } from '../types/mapa';
 
 const locais: Record<Cidade, Local> = {

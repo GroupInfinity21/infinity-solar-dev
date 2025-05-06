@@ -7,9 +7,7 @@ import Image from "next/image";
 import { useRouter } from 'next/navigation';
 import emailjs from "emailjs-com";
 import { useTranslation } from 'next-i18next';
-import '../../i18n';
 
-// Component imports
 import Footer from './components/footer';
 import Faq from './components/faq';
 import HowWork from './components/HowWork';
