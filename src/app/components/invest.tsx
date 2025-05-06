@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import { useTranslation } from 'next-i18next'; 
-import '../../i18n';
+import '../../../i18n'
 
 export default function Invest () {
 

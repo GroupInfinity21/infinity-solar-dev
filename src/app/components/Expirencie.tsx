@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Building2, Target, Trophy, Users2 } from "lucide-react"
 import { useTranslation } from 'next-i18next'; 
-import '../../i18n';
+import '../../../i18n'
 
 export default function Expiriencie (){
   const { t } = useTranslation();
