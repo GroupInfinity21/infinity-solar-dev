@@ -1,21 +1,22 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import {  useState } from 'react';
+import { useState } from 'react';
 import toast from 'react-hot-toast';
 import Image from "next/image";
-import {Footer} from './components/Footer';
-import { Faq } from './components/Faq';
-import {HowWork} from './components/HowWork'
-import {Expiriencie} from './components/Expirencie';
-import { Invest } from './components/Invest';
-import emailjs from "emailjs-com";
-import {Mapa} from './components/Map';
 import { useRouter } from 'next/navigation';
-import '../../i18n'
-import { useTranslation } from 'next-i18next'; 
-import LanguageSwitcher from './components/LanguageSwitcher'; 
+import emailjs from "emailjs-com";
+import { useTranslation } from 'next-i18next';
+import '../../i18n';
 
+// Component imports
+import Footer from './components/Footer';
+import Faq from './components/Faq';
+import HowWork from './components/HowWork';
+import Expiriencie from './components/Expirencie'; 
+import Mapa from './components/Map';  
+import LanguageSwitcher from './components/LanguageSwitcher';
+import Invest from './components/Invest';
 export default function Home() {
   
   const { t } = useTranslation();

@@ -97,4 +97,4 @@ export const Mapa = () => {
   );
 }
 
-export default Map;
+export default Mapa;
