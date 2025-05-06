@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'react-i18next'
 import React from 'react'
 import '../../../i18n'
 

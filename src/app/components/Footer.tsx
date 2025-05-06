@@ -3,7 +3,7 @@
 import { Mail, MapPinned, Phone } from 'lucide-react'
 import React from 'react'
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'react-i18next'
 import '../../../i18n'
 
 export default function Footer() {

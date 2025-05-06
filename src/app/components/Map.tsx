@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import React from 'react'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'react-i18next'
 import type { Cidade, Local } from '../types/mapa'
 import '../../../i18n'
 

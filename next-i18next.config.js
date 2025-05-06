@@ -1,11 +1,11 @@
+// next-i18next.config.js
 module.exports = {
   i18n: {
-    defaultLocale: 'pt',
-    locales: ['pt', 'en'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR', 'en-US'],
   },
   localePath: './public/locales',
-  i18next: {
-    defaultNS: 'common',
-    returnObjects: true, // 👈 Isso permite retornar arrays/objetos nas traduções
-  },
+  defaultNS: 'common',
+  returnObjects: true,
 }
+

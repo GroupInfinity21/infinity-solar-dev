@@ -6,7 +6,7 @@ import { toast } from 'react-hot-toast'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import emailjs from 'emailjs-com'
-import { useTranslation } from 'next-i18next'
+import { useTranslation } from 'react-i18next'
 import '../../i18n'
 
 import Footer from '@/app/components/Footer'
