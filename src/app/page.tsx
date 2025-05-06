@@ -10,13 +10,13 @@ import { useTranslation } from 'next-i18next';
 import '../../i18n';
 
 // Component imports
-import Footer from './components/Footer';
-import Faq from './components/Faq';
+import Footer from './components/footer';
+import Faq from './components/faq';
 import HowWork from './components/HowWork';
 import Expiriencie from './components/Expirencie'; 
 import Mapa from './components/Map';  
 import LanguageSwitcher from './components/LanguageSwitcher';
-import Invest from './components/Invest';
+import Invest from './components/invest';
 export default function Home() {
   
   const { t } = useTranslation();
