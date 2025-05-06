@@ -1,14 +1,14 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import toast from 'react-hot-toast';
 import Image from "next/image";
-import {Footer} from './components/footer';
-import { Faq } from './components/faq';
+import {Footer} from './components/Footer';
+import { Faq } from './components/Faq';
 import {HowWork} from './components/HowWork'
 import {Expiriencie} from './components/Expirencie';
-import { Invest } from './components/invest';
+import { Invest } from './components/Invest';
 import emailjs from "emailjs-com";
 import {Mapa} from './components/Map';
 import { useRouter } from 'next/navigation';
